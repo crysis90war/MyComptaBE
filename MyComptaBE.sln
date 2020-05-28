@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyComptaBEDataManager", "MyComptaBEDataManager\MyComptaBEDataManager.csproj", "{46A5752F-421A-4D19-B1D9-B5D963073BBB}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MyComptaBEData", "MyComptaBEData\MyComptaBEData.sqlproj", "{3D6EA928-E1D5-4F99-8B69-5281CD079086}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyComptaBEDesktopUI", "MyComptaBEDesktopUI\MyComptaBEDesktopUI.csproj", "{02EE1D7A-59AF-407D-942E-6B86E3015A81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{46A5752F-421A-4D19-B1D9-B5D963073BBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46A5752F-421A-4D19-B1D9-B5D963073BBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46A5752F-421A-4D19-B1D9-B5D963073BBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D6EA928-E1D5-4F99-8B69-5281CD079086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D6EA928-E1D5-4F99-8B69-5281CD079086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D6EA928-E1D5-4F99-8B69-5281CD079086}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3D6EA928-E1D5-4F99-8B69-5281CD079086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D6EA928-E1D5-4F99-8B69-5281CD079086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D6EA928-E1D5-4F99-8B69-5281CD079086}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{02EE1D7A-59AF-407D-942E-6B86E3015A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02EE1D7A-59AF-407D-942E-6B86E3015A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02EE1D7A-59AF-407D-942E-6B86E3015A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02EE1D7A-59AF-407D-942E-6B86E3015A81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
